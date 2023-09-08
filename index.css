@@ -48,3 +48,31 @@ figure {
 figure img {
   vertical-align: top;
 }
+
+#repos-list {
+  background-color: red;
+  width: 750px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-count: 1;
+  overflow-y: auto;
+  overflow-x: auto;
+  text-align: justify;
+  justify-content: left;
+  align-items: left;
+}
+
+#repos-list .repo {
+  border: 4px solid #1e0a82;
+  padding: 5px;
+  width: 100%;
+  align-items: left;
+}
+
+#github-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
